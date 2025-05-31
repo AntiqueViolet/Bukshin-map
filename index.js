@@ -1,5 +1,5 @@
 ymaps.ready(function () {
-    fetch('open_with_2gis.json')
+    fetch('open_with_2gis_yandex.json')
         .then(response => response.json())
         .then(openData => {
             console.log("Данные загружены");
